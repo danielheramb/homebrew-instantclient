@@ -5,7 +5,7 @@ class InstantclientSdk < Formula
   desc "Oracle Instant Client SDK x64."
   homepage "http://www.oracle.com/technetwork/topics/intel-macsoft-096467.html"
 
-  url "https://github.com/danielheramb/homebrew-instantclient/blob/files/Files/instantclient-sdk-macos.x64-12.2.0.1.0-2.zip",
+  url "https://github.com/danielheramb/homebrew-instantclient/raw/files/Files/instantclient-sdk-macos.x64-12.2.0.1.0-2.zip",
       :using => CurlDownloadStrategy
   sha256 "e0befca9c4e71ebc9f444957ffa70f01aeeec5976ea27c40406471b04c34848b"
 
