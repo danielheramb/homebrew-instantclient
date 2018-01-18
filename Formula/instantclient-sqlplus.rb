@@ -6,7 +6,7 @@ class InstantclientSqlplus < Formula
   homepage "http://www.oracle.com/technetwork/topics/intel-macsoft-096467.html"
 
   url "https://github.com/danielheramb/homebrew-instantclient/blob/files/Files/instantclient-sqlplus-macos.x64-12.2.0.1.0-2.zip",
-      :using => CacheWoDownloadStrategy
+      :using => CurlDownloadStrategy
   sha256 "d147cbb5b2a954fdcb4b642df4f0bd1153fd56e0f56e7fa301601b4f7e2abe0e"
 
   option "with-basiclite", "Depend on instantclient-basiclite instead of instantclient-basic."
